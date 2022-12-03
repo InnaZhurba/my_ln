@@ -1,9 +1,7 @@
-# Lab work 5: myshell2
+# Lab work additional: my_ln
 Authors (team):<br>Inna Zhurba [https://github.com/InnaZhurba]()<br>
 
 ### Usage
 
-
-
-### Result
-
+g++ main.cpp -o my_ln<br>
+./my_ln [--soft|--hard|--help] <source> <destination><br>

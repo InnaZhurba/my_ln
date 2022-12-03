@@ -1,11 +1,12 @@
 #include <iostream>
 #include <unistd.h>
 
-//implement ln command with soft/hard link
+// ln command with soft/hard link
 int main(int argc, char *argv[])
 {
     std::string help = ("Usage: ln -s/-h source_file target_file");
 
+    // check if there is a source file
     if(argc == 1){
         return 0;
     }
