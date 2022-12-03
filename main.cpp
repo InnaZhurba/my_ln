@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     }
 
     if(strcmp(argv[1], "--help") == 0 || argc != 4) {
-        std::cerr << help << std::endl;
+        write(1, help.c_str(), help.size());
     }
 
     if(strcmp(argv[1], "--soft") == 0)
